@@ -1,0 +1,25 @@
+.app-news {
+  height: 35rem;
+  margin-top: 1rem;
+
+  .app-blog-img {
+    margin-bottom: 1rem;
+    height: 15rem;
+    background-size: cover;
+
+    img {
+      border-radius: 20px;
+    }
+  }
+
+  .app-title-sm {
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .app-description-sm {
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 1rem 0;
+  }
+}

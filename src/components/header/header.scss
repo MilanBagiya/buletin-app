@@ -1,0 +1,41 @@
+.app-heading {
+  font-family: "Crimson Text", serif;
+  color: #d32c2c;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+.app-links {
+  padding: 0 0.875rem;
+  margin-top: 4px;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.vertical-bar {
+  height: 1.8rem;
+  width: 2px;
+  background-color: grey;
+  margin: 1rem;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 1rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
